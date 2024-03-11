@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QacwyoMCMDebZk2xN3gW/1egpRSGjDaROscvr8Q0j8D6FWfIC8XR1/hDNHzn+UrrblV6BZr3qznou0U24yInVA==",
+  "success": true,
+  "projectFilePath": "D:\\vs\\projects\\Brainring\\BrainringPC\\BrainringPC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nazar\\.nuget\\packages\\caching.dll\\1.4.0.1\\caching.dll.1.4.0.1.nupkg.sha512",
+    "C:\\Users\\Nazar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Nazar\\.nuget\\packages\\simpleudp\\1.2.2\\simpleudp.1.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

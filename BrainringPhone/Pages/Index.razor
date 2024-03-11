@@ -1,0 +1,61 @@
+﻿@page "/"
+@inject NavigationManager Navigation;
+
+<div class="color" @onclick="Send"></div>
+
+<style>
+    .color {
+        background-color: @Color;
+        width: 100dvw;
+        height: 100dvh;
+    }
+</style>
+
+@using Microsoft.Maui;
+@using System.Net.Sockets
+@using System.Net
+@using System.Text
+@code {
+    public string ip;
+    public string Color = "green";
+    UdpClient client = new UdpClient();
+
+    protected override Task OnInitializedAsync()
+    {
+        GetIP();
+        SetColor();
+        return base.OnInitializedAsync();
+    }
+    // 172.24.144.1
+    private void GetIP()
+    {
+        ip = Application.Current.MainPage.DisplayPromptAsync("IP", "Введіть ip пк").Result;
+        try
+        {
+            IPEndPoint ep = new IPEndPoint(IPAddress.Parse(ip), 11000); // endpoint where server is listening
+            client.Connect(ep);
+        }
+        catch
+        {
+            Application.Current.MainPage.DisplayAlert("Помилка", "Помилка підключення до сервера відкрийте програму на пк або перезапустіть цю", "Ok");
+        }
+    }
+    private void SetColor()
+    {
+        var colorR = Application.Current.MainPage.DisplayAlert("Колір", "Який колір Вибираєте?", "Червоний", "Синій").Result;
+        if (colorR)
+        {
+            Color = "Red";
+        }
+        else
+        {
+            Color = "Blue";
+        }
+        return;
+    }
+    private void Send()
+    {
+        client.Send(Encoding.UTF8.GetBytes(Color));
+    }
+
+}

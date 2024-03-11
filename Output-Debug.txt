@@ -1,0 +1,410 @@
+﻿Start debugging Android application ...
+Forwarding debugger port 8851
+Detecting existing process
+> am start -a "android.intent.action.MAIN" -c "android.intent.category.LAUNCHER" -n "com.nazarostapiv.brainringphone/crc645da65b46a816a6c4.MainActivity"
+> Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.nazarostapiv.brainringphone/crc645da65b46a816a6c4.MainActivity }
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Private.CoreLib.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/BrainringPhone.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Mono.Android.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Runtime.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Java.Interop.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Runtime.InteropServices.dll [External]
+Resolved pending breakpoint for 'Android.Runtime.JNIEnvInit.RegisterJniNatives(System.IntPtr, System.Int32, System.IntPtr, System.IntPtr, System.Int32)' to /Users/runner/work/1/s/xamarin-android/src/Mono.Android/Android.Runtime/JNIEnvInit.cs:59 [0x00000].
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Collections.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Mono.Android.Runtime.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Threading.dll [External]
+[art] Late-enabling -Xcheck:jni
+[debug-app-helper] Checking if libmonodroid was unpacked to /data/app/com.nazarostapiv.brainringphone-1/lib/arm/libmonodroid.so
+[debug-app-helper] Native libs extracted to /data/app/com.nazarostapiv.brainringphone-1/lib/arm, assuming application/android:extractNativeLibs == true
+[debug-app-helper] Setting up for DSO lookup in app data directories
+[debug-app-helper] Added filesystem DSO lookup location: /data/app/com.nazarostapiv.brainringphone-1/lib/arm
+[debug-app-helper] Using runtime path: /data/app/com.nazarostapiv.brainringphone-1/lib/arm
+[debug-app-helper] checking directory: `/data/user/0/com.nazarostapiv.brainringphone/files/.__override__/lib`
+[debug-app-helper] directory does not exist: `/data/user/0/com.nazarostapiv.brainringphone/files/.__override__/lib`
+[debug-app-helper] Checking whether Mono runtime exists at: /data/user/0/com.nazarostapiv.brainringphone/files/.__override__/libmonosgen-2.0.so
+[debug-app-helper] Checking whether Mono runtime exists at: /data/app/com.nazarostapiv.brainringphone-1/lib/arm/libmonosgen-2.0.so
+[debug-app-helper] Mono runtime found at: /data/app/com.nazarostapiv.brainringphone-1/lib/arm/libmonosgen-2.0.so
+[art] Attempt to remove non-JNI local reference, dumping thread
+[DOTNET] JNI_OnLoad: JNI_OnLoad in pal_jni.c
+[DOTNET] GetOptionalMethod: optional method setApplicationProtocols ([Ljava/lang/String;)V was not found
+[DOTNET] GetOptionalMethod: optional method getApplicationProtocol ()Ljava/lang/String; was not found
+[monodroid] Creating public update directory: `/data/user/0/com.nazarostapiv.brainringphone/files/.__override__`
+[art] Attempt to remove non-JNI local reference, dumping thread
+[monodroid-debug] Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:8851,server=y,embedding=1,timeout=1710080782
+[monodroid-assembly] open_from_bundles: failed to load assembly BrainringPhone.dll
+[monodroid-gc] GREF GC Threshold: 46080
+[monodroid-assembly] open_from_bundles: failed to load assembly Mono.Android.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Java.Interop.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.InteropServices.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Collections.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Mono.Android.Runtime.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Threading.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Threading.Thread.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Diagnostics.StackTrace.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Threading.Thread.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Diagnostics.StackTrace.dll [External]
+[art] Attempt to remove non-JNI local reference, dumping thread
+Loaded assembly: data-0x953e9c00 [External]
+Loaded assembly: data-0x95303f40 [External]
+Loaded assembly: data-0x95316340 [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly netstandard.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/netstandard.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Linq.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Linq.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.TapContract.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.TapContract.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.HotReload.Contracts.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.HotReload.Contracts.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Collections.Concurrent.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Collections.Concurrent.dll [External]
+Resolved pending breakpoint for 'Xamarin.HotReload.HotReloadAgent.BreakpointSendToIde(System.String)' to D:\a\_work\1\s\HotReload\Source\Xamarin.HotReload.Agent\HotReloadAgent.cs:423 [0x00000].
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Text.Json.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Text.Json.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Text.Encodings.Web.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Text.Encodings.Web.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Loader.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Runtime.Loader.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.ComponentModel.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.ComponentModel.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.Controls.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.HotReload.Contracts.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.HotReload.Contracts.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Maui.Controls.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.TapContract.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.TapContract.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.ObjectModel.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.ObjectModel.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Maui.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.Graphics.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.Essentials.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Logging.Abstractions.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Maui.Graphics.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Maui.Essentials.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.Logging.Abstractions.dll [External]
+Resolved pending breakpoint for 'Xamarin.HotReload.HotReloadAgent.BreakpointCheckpoint()' to D:\a\_work\1\s\HotReload\Source\Xamarin.HotReload.Agent\HotReloadAgent.cs:418 [0x00000].
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Memory.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Memory.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Reflection.Emit.Lightweight.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Reflection.Emit.ILGeneration.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Reflection.Primitives.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Reflection.Emit.Lightweight.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Reflection.Emit.ILGeneration.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Reflection.Primitives.dll [External]
+[.brainringphone] type=1400 audit(0.0:293): avc: denied { read } for path=2F6465762F6173686D656D2F64616C76696B2D6E6F6E206D6F76696E67207370616365202864656C6574656429 dev="tmpfs" ino=7669 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:init_tmpfs:s0 tclass=file
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Core.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.Core.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.DependencyInjection.Abstractions.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Console.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Console.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.Controls.Xaml.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Maui.Controls.Xaml.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Configuration.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Configuration.Abstractions.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.AspNetCore.Components.WebView.Maui.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Logging.Debug.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.Configuration.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.Configuration.Abstractions.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.AspNetCore.Components.WebView.Maui.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.Logging.Debug.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.AppCompat.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.Google.Android.Material.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.SwipeRefreshLayout.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.AppCompat.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.Google.Android.Material.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.SwipeRefreshLayout.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.ComponentModel.TypeConverter.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.ComponentModel.TypeConverter.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Private.Uri.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Private.Uri.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Fragment.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Activity.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Lifecycle.ViewModel.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Lifecycle.Common.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.SavedState.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.Fragment.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.Activity.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.Lifecycle.ViewModel.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.Lifecycle.Common.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.SavedState.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.DrawerLayout.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.CustomView.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Navigation.Runtime.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.DrawerLayout.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.CustomView.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.Navigation.Runtime.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Net.Primitives.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Net.Primitives.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.AspNetCore.Components.WebView.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.AspNetCore.Components.WebView.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Logging.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.JSInterop.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.AspNetCore.Components.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.AspNetCore.Components.Web.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.Logging.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.JSInterop.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.AspNetCore.Components.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.AspNetCore.Components.Web.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Options.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.Options.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.DependencyInjection.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.DependencyInjection.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Diagnostics.Tracing.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Diagnostics.Tracing.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Xml.ReaderWriter.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Private.Xml.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Xml.ReaderWriter.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Private.Xml.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Text.Encoding.Extensions.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Text.Encoding.Extensions.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly uk-UA/System.Private.CoreLib.resources.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly uk-UA/System.Private.CoreLib.resources.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly uk/System.Private.CoreLib.resources.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly uk/System.Private.CoreLib.resources.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Numerics.Vectors.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Numerics.Vectors.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Text.RegularExpressions.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Text.RegularExpressions.dll [External]
+Thread started:  #2
+Thread started:  #3
+Thread started:  #4
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Serialization.Json.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Private.DataContractSerialization.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Serialization.Xml.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Serialization.Primitives.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Runtime.Serialization.Json.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Private.DataContractSerialization.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Runtime.Serialization.Xml.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Runtime.Serialization.Primitives.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly uk-UA/System.Private.DataContractSerialization.resources.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly uk-UA/System.Private.DataContractSerialization.resources.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly uk/System.Private.DataContractSerialization.resources.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly uk/System.Private.DataContractSerialization.resources.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Intrinsics.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Runtime.Intrinsics.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.FileProviders.Abstractions.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.FileProviders.Abstractions.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.RecyclerView.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.CardView.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.RecyclerView.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.CardView.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Loader.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.Loader.dll [External]
+[AppCompatDelegate] Checking for metadata for AppLocalesMetadataHolderService : Service not found
+[monodroid-assembly] open_from_bundles: failed to load assembly _Microsoft.Android.Resource.Designer.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/_Microsoft.Android.Resource.Designer.dll [External]
+[art] Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.CoordinatorLayout.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.CoordinatorLayout.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Lifecycle.LiveData.Core.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Xamarin.AndroidX.Lifecycle.LiveData.Core.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Primitives.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.Primitives.dll [External]
+[System] ClassLoader referenced unknown path: /system/app/webview/lib/arm
+[ApplicationLoaders] ignored Vulkan layer search path /system/app/webview/lib/arm:/system/app/webview/webview.apk!/lib/armeabi-v7a:/system/lib:/vendor/lib for namespace 0x9ae54090
+[WebViewFactory] Loading com.android.webview version 60.0.3112.78 (code 1)
+[cr_LibraryLoader] Time to load native libraries: 4 ms (timestamps 8580-8584)
+[chromium] [INFO:library_loader_hooks.cc(144)] Chromium logging enabled: level = 0, default verbosity = 0
+[cr_LibraryLoader] Expected native library version number "60.0.3112.78", actual native library version number "60.0.3112.78"
+[cr_BrowserStartup] Initializing chromium process, singleProcess=true
+[] appName=com.nazarostapiv.brainringphone, acAppName=/system/bin/surfaceflinger
+[] 0
+[] appName=com.nazarostapiv.brainringphone, acAppName=/system/bin/surfaceflinger
+[] 0
+[.brainringphone] type=1400 audit(0.0:294): avc: denied { write } for name="property_service" dev="tmpfs" ino=1228 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.FileProviders.Embedded.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.FileProviders.Embedded.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.FileProviders.Composite.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/Microsoft.Extensions.FileProviders.Composite.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Xml.XDocument.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Private.Xml.Linq.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Xml.XDocument.dll [External]
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Private.Xml.Linq.dll [External]
+[cr_media] Requires BLUETOOTH permission
+[libEGL] validate_display:99 error 3008 (EGL_BAD_DISPLAY)
+[] appName=com.nazarostapiv.brainringphone, acAppName=/system/bin/surfaceflinger
+[] 0
+[] appName=com.nazarostapiv.brainringphone, acAppName=/system/bin/surfaceflinger
+[] 0
+[Utils] could not parse size range '1088h1920-2048x2048'
+[MediaCodecList] Could not get codec capabilities
+[MediaCodecList] java.lang.IllegalArgumentException: alignment width must be power of two
+[MediaCodecList] 	at android.media.MediaCodecInfo.checkPowerOfTwo(MediaCodecInfo.java)
+[MediaCodecList] 	at android.media.MediaCodecInfo.-wrap0(MediaCodecInfo.java)
+[MediaCodecList] 	at android.media.MediaCodecInfo$VideoCapabilities.parseFromInfo(MediaCodecInfo.java)
+[MediaCodecList] 	at android.media.MediaCodecInfo$VideoCapabilities.init(MediaCodecInfo.java)
+[MediaCodecList] 	at android.media.MediaCodecInfo$VideoCapabilities.create(MediaCodecInfo.java)
+[MediaCodecList] 	at android.media.MediaCodecInfo$CodecCapabilities.<init>(MediaCodecInfo.java)
+[MediaCodecList] 	at android.media.MediaCodecInfo$CodecCapabilities.<init>(MediaCodecInfo.java)
+[MediaCodecList] 	at android.media.MediaCodecList.getCodecCapabilities(Native Method)
+[MediaCodecList] 	at android.media.MediaCodecList.getNewCodecInfoAt(MediaCodecList.java)
+[MediaCodecList] 	at android.media.MediaCodecList.initCodecList(MediaCodecList.java)
+[MediaCodecList] 	at android.media.MediaCodecList.<init>(MediaCodecList.java)
+[MediaCodecList] 	at org.chromium.media.MediaCodecUtil$MediaCodecListHelper.<init>(MediaCodecUtil.java:74)
+[MediaCodecList] 	at org.chromium.media.MediaCodecUtil.getDefaultCodecName(MediaCodecUtil.java:161)
+[VideoCapabilities] Unsupported profile 4 for video/mp4v-es
+[AudioCapabilities] Unsupported mime audio/ac3
+[AudioCapabilities] Unsupported mime audio/alac
+[AudioCapabilities] Unsupported mime audio/x-ape
+[AudioCapabilities] Unsupported mime audio/ffmpeg
+[AudioCapabilities] Unsupported mime audio/dts
+[AudioCapabilities] Unsupported mime audio/mpeg-L2
+[AudioCapabilities] Unsupported mime audio/vnd.rn-realaudio
+[AudioCapabilities] Unsupported mime audio/x-ms-wma
+[VideoCapabilities] Unsupported mime video/divx
+[VideoCapabilities] Unsupported mime video/x-flv
+[VideoCapabilities] Unsupported mime video/vnd.rn-realvideo
+[VideoCapabilities] Unsupported mime video/vc1
+[VideoCapabilities] Unsupported mime video/ffmpeg
+[VideoCapabilities] Unsupported mime video/x-ms-wmv
+[cr_MediaCodecUtil] HW encoder for video/avc is not available on this device.
+[MALI] #00 pc 000eca87  /system/lib/libMali.so (MtkMali_DumpCallStack+14)
+[MALI] #01 pc 0005dabc  /system/lib/libMali.so
+[MALI] #02 pc 00059c14  /system/lib/libMali.so
+[MALI] #03 pc 0005c5a0  /system/lib/libMali.so (shim_eglChooseConfig+76)
+[MALI] #04 pc 0000c925  /system/lib/libEGL.so (eglChooseConfig+372)
+[MALI] #05 pc 00713fc3  /system/app/webview/webview.apk (offset 0xb71000)
+[MALI] __egl_set_error:121: [WARNING]Mali EGL errorcode: 3004
+[chromium] [ERROR:gl_surface_egl.cc(263)] eglChooseConfig failed with error EGL_BAD_ATTRIBUTE
+[] appName=com.nazarostapiv.brainringphone, acAppName=/system/bin/surfaceflinger
+[] 0
+[] appName=com.nazarostapiv.brainringphone, acAppName=/system/bin/surfaceflinger
+[] 0
+[Choreographer] Skipped 430 frames!  The application may be doing too much work on its main thread.
+[art] Rejecting re-init on previously-failed class java.lang.Class<com.google.android.material.appbar.AppBarLayout$BaseBehavior$$ExternalSyntheticLambda0>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+[art]   at androidx.coordinatorlayout.widget.CoordinatorLayout$Behavior com.google.android.material.appbar.AppBarLayout.getBehavior() (AppBarLayout.java:645)
+[art]   at androidx.coordinatorlayout.widget.CoordinatorLayout$LayoutParams androidx.coordinatorlayout.widget.CoordinatorLayout.getResolvedLayoutParams(android.view.View) (CoordinatorLayout.java:692)
+[art]   at void androidx.coordinatorlayout.widget.CoordinatorLayout.prepareChildren() (CoordinatorLayout.java:730)
+[art]   at void androidx.coordinatorlayout.widget.CoordinatorLayout.onMeasure(int, int) (CoordinatorLayout.java:802)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.FrameLayout.onMeasure(int, int) (FrameLayout.java:-1)
+[art]   at void androidx.appcompat.widget.ContentFrameLayout.onMeasure(int, int) (ContentFrameLayout.java:145)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.FrameLayout.onMeasure(int, int) (FrameLayout.java:-1)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.FrameLayout.onMeasure(int, int) (FrameLayout.java:-1)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.LinearLayout.measureChildBeforeLayout(android.view.View, int, int, int, int, int) (LinearLayout.java:-1)
+[art]   at void android.widget.LinearLayout.measureVertical(int, int) (LinearLayout.java:-1)
+[art]   at void android.widget.LinearLayout.onMeasure(int, int) (LinearLayout.java:-1)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.FrameLayout.onMeasure(int, int) (FrameLayout.java:-1)
+[art]   at void com.android.internal.policy.DecorView.onMeasure(int, int) (DecorView.java:-1)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewRootImpl.performMeasure(int, int) (ViewRootImpl.java:-1)
+[art]   at boolean android.view.ViewRootImpl.measureHierarchy(android.view.View, android.view.WindowManager$LayoutParams, android.content.res.Resources, int, int) (ViewRootImpl.java:-1)
+[art]   at void android.view.ViewRootImpl.performTraversals() (ViewRootImpl.java:-1)
+[art]   at void android.view.ViewRootImpl.doTraversal() (ViewRootImpl.java:-1)
+[art]   at void android.view.ViewRootImpl$TraversalRunnable.run() (ViewRootImpl.java:-1)
+[art]   at void android.view.Choreographer$CallbackRecord.run(long) (Choreographer.java:-1)
+[art]   at void android.view.Choreographer.doCallbacks(int, long) (Choreographer.java:-1)
+[art]   at void android.view.Choreographer.doFrame(long, int) (Choreographer.java:-1)
+[art]   at void android.view.Choreographer$FrameDisplayEventReceiver.run() (Choreographer.java:-1)
+[art]   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:-1)
+[art]   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:-1)
+[art]   at void android.os.Looper.loop() (Looper.java:-1)
+[art]   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:-1)
+[art]   at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+[art]   at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:-1)
+[art]   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:-1)
+[art] Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/com.nazarostapiv.brainringphone-1/base.apk"],nativeLibraryDirectories=[/data/app/com.nazarostapiv.brainringphone-1/lib/arm, /data/app/com.nazarostapiv.brainringphone-1/base.apk!/lib/armeabi-v7a, /system/lib, /vendor/lib]]
+[art]   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:56)
+[art]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:380)
+[art]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+[art]   at androidx.coordinatorlayout.widget.CoordinatorLayout$Behavior com.google.android.material.appbar.AppBarLayout.getBehavior() (AppBarLayout.java:645)
+[art]   at androidx.coordinatorlayout.widget.CoordinatorLayout$LayoutParams androidx.coordinatorlayout.widget.CoordinatorLayout.getResolvedLayoutParams(android.view.View) (CoordinatorLayout.java:692)
+[art]   at void androidx.coordinatorlayout.widget.CoordinatorLayout.prepareChildren() (CoordinatorLayout.java:730)
+[art]   at void androidx.coordinatorlayout.widget.CoordinatorLayout.onMeasure(int, int) (CoordinatorLayout.java:802)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.FrameLayout.onMeasure(int, int) (FrameLayout.java:-1)
+[art]   at void androidx.appcompat.widget.ContentFrameLayout.onMeasure(int, int) (ContentFrameLayout.java:145)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.FrameLayout.onMeasure(int, int) (FrameLayout.java:-1)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.FrameLayout.onMeasure(int, int) (FrameLayout.java:-1)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.LinearLayout.measureChildBeforeLayout(android.view.View, int, int, int, int, int) (LinearLayout.java:-1)
+[art]   at void android.widget.LinearLayout.measureVertical(int, int) (LinearLayout.java:-1)
+[art]   at void android.widget.LinearLayout.onMeasure(int, int) (LinearLayout.java:-1)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewGroup.measureChildWithMargins(android.view.View, int, int, int, int) (ViewGroup.java:-1)
+[art]   at void android.widget.FrameLayout.onMeasure(int, int) (FrameLayout.java:-1)
+[art]   at void com.android.internal.policy.DecorView.onMeasure(int, int) (DecorView.java:-1)
+[art]   at void android.view.View.measure(int, int) (View.java:-1)
+[art]   at void android.view.ViewRootImpl.performMeasure(int, int) (ViewRootImpl.java:-1)
+[art]   at boolean android.view.ViewRootImpl.measureHierarchy(android.view.View, android.view.WindowManager$LayoutParams, android.content.res.Resources, int, int) (ViewRootImpl.java:-1)
+[art]   at void android.view.ViewRootImpl.performTraversals() (ViewRootImpl.java:-1)
+[art]   at void android.view.ViewRootImpl.doTraversal() (ViewRootImpl.java:-1)
+[art]   at void android.view.ViewRootImpl$TraversalRunnable.run() (ViewRootImpl.java:-1)
+[art]   at void android.view.Choreographer$CallbackRecord.run(long) (Choreographer.java:-1)
+[art]   at void android.view.Choreographer.doCallbacks(int, long) (Choreographer.java:-1)
+[art]   at void android.view.Choreographer.doFrame(long, int) (Choreographer.java:-1)
+[art]   at void android.view.Choreographer$FrameDisplayEventReceiver.run() (Choreographer.java:-1)
+[art]   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:-1)
+[art]   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:-1)
+[art]   at void android.os.Looper.loop() (Looper.java:-1)
+[art]   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:-1)
+[art]   at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+[art]   at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:-1)
+[art]   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:-1)
+[art] 
+[OpenGLRenderer] Initialized EGL, version 1.4
+[OpenGLRenderer] Swap behavior 1
+[] appName=com.nazarostapiv.brainringphone, acAppName=/system/bin/surfaceflinger
+[] 0
+[] appName=com.nazarostapiv.brainringphone, acAppName=/system/bin/surfaceflinger
+[] 0
+[MaliEGL] [Mali]window_type=1, is_framebuffer=0, errnum = 0
+[MaliEGL] [Mali]surface->num_buffers=4, surface->num_frames=3, win_min_undequeued=1
+[MaliEGL] [Mali]max_allowed_dequeued_buffers=3
+Thread started: .NET Timer #5
+Thread started:  #6
+[chromium] [INFO:CONSOLE(5)] "The key "viewport-fit" is not recognized and ignored.", source: https://0.0.0.0/ (5)
+Thread started:  #7
+Thread started:  #8
+Thread started:  #9
+[chromium] [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token import", source: https://0.0.0.0/_framework/blazor.webview.js (1)
+[chromium] [INFO:CONSOLE(2)] "Uncaught ReferenceError: Blazor is not defined", source:  (2)
+Thread started: <Thread Pool> #10
+Thread started: .NET TP Gate #11
+Thread started: <Thread Pool> #12
+[ProfileInstaller] Installing profile for com.nazarostapiv.brainringphone
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Xml.XmlSerializer.dll
+Loaded assembly: /data/data/com.nazarostapiv.brainringphone/files/.__override__/System.Xml.XmlSerializer.dll [External]
+Thread started: <Thread Pool> #13
+Thread started: <Thread Pool> #14
+The thread 0xc has exited with code 0 (0x0).
+Thread finished: <Thread Pool> #12
+Thread finished: <Thread Pool> #10
+The thread 0xa has exited with code 0 (0x0).
+Thread started: <Thread Pool> #15
+Thread finished: <Thread Pool> #14
+The thread 0xe has exited with code 0 (0x0).
+Thread started: <Thread Pool> #16
+Thread finished: <Thread Pool> #15
+The thread 0xf has exited with code 0 (0x0).
+Thread started: <Thread Pool> #17
+Thread finished: <Thread Pool> #13
+The thread 0xd has exited with code 0 (0x0).
+Thread started: <Thread Pool> #18
+Thread finished: <Thread Pool> #17
+The thread 0x11 has exited with code 0 (0x0).
+Thread started: <Thread Pool> #19
+Thread finished: <Thread Pool> #18
+The thread 0x12 has exited with code 0 (0x0).
+Thread started: <Thread Pool> #20
+Thread finished: <Thread Pool> #19
+The thread 0x13 has exited with code 0 (0x0).
+Failed to clear debug property on device
+Unable to terminate Android app in debugger cleanup

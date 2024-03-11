@@ -1,0 +1,1 @@
+D:\vs\projects\Brainring\Brainring\Brainring.csproj;x64
